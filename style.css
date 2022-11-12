@@ -137,7 +137,7 @@ body {
 }
 
 .secondary-btn {
-  background-color: #1E475D;
+  background-color: transparent;
   color: #E7F6F3;
   border: 2px solid #E7F6F3;
   padding: 12px 40px;
@@ -145,8 +145,8 @@ body {
 }
 
 .secondary-btn:hover {
-  background-color: #0a8686;
-  color: #E7F6F3;
+  background-color: #E7F6F3;
+  color: #2C3333;
   border: 2px solid #E7F6F3;
   padding: 12px 40px;
   border-radius: 50px;
@@ -185,17 +185,6 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
-.services-card {
-  height: 200px;
-  width: 300px;
-  margin: 0;
-  background-color: #0D8A8A;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .services-wrapper {
   display: flex;
   justify-content: space-around;
@@ -203,6 +192,51 @@ body {
   padding: 20px 0;
 }
 
+.services-card {
+  height: 350px;
+  width: 300px;
+  background-color: #0D8A8A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
 .services-paragraph {
+  font-size: 14px;
+  display: flex;
   text-align: center;
+  margin: -90px 0 10px 0;
+  width: 250px;
+}
+
+.thumbnail {
+width: 250px;
+padding: 20px 0 140px 0;
+}
+
+.card-heading {
+  font-size: 20px;
+  background-color: #2C3333;
+  width: 250px;
+  height: 50px;
+  position: absolute;
+  border-radius: 0 0 5px 5px;
+  padding: 10px 0 10px 0;
+  margin: 0 0 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+/*section 3*/
+
+.team-heading {
+  font-size: 50px;
+  text-align: center;
+  padding: 180px 0 0 0;
+}
+
+.ceo-wrapper {
+  
 }
